@@ -56,18 +56,35 @@ nav{
     
 
 }
-    @media (min-width: 1024px) {
-
-    body {
-        max-width: 1200px;
-        margin: auto;
-    }
-
+@media (max-width: 480px) {
     header {
-        font-size: 22px;
+        font-size: 16px;
+        margin: 10px;
+        padding: 15px;
     }
 
+    nav {
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
     }
 
+    section {
+        margin: 10px;
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .img {
+        width: 120px;
+        height: 120px;
+    }
+
+    footer {
+        font-size: 20px;
+        padding: 20px;
+    }
+}
+   
 
 
