@@ -57,20 +57,12 @@ nav{
 
 }
 
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 1.6rem;
-    }
+@media(max-width:600px){
 
-    .nav a {
-        display: inline-block;
-        margin: 5px;
-    }
+.main{
 
-    section {
-        margin: 10px;
-        padding: 20px;
-    }
+flex-direction:column;
+}
 }
 
 
