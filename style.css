@@ -57,7 +57,18 @@ nav{
 
 }
 
-@media (max-width: 600px) {
+/* ===== Mobile Responsive Design ===== */
+@media (max-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        margin: 10px;
+        padding: 15px;
+        font-size: 16px;
+    }
 
     header h1 {
         font-size: 22px;
@@ -71,30 +82,57 @@ nav{
         font-size: 14px;
     }
 
+    /* Profile Image */
     .img {
-        width: 120px;
-        height: 120px;
+        width: 140px;
+        height: 140px;
+        margin-top: 10px;
     }
 
-    .nav {
+    /* Navigation */
+    nav {
+        display: flex;
         flex-direction: column;
-        gap: 8px;
+        gap: 10px;
+        padding: 10px;
     }
 
-    .nav a {
-        font-size: 14px;
+    nav a {
+        font-size: 16px;
+        padding: 5px 0;
     }
 
+    /* Sections */
     section {
+        margin: 10px;
         padding: 15px;
+        font-size: 15px;
     }
 
-    section h2 {
-        font-size: 18px;
+    h2 {
+        font-size: 20px;
+        text-align: center;
     }
 
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    /* Resume Link */
+    section a {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    /* Footer */
     footer {
-        font-size: 12px;
+        font-size: 16px;
+        padding: 20px;
     }
 }
 
